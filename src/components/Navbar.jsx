@@ -22,11 +22,13 @@ const Navbar = () => {
       <nav
         className={`w-full flex p-4 justify-between items-center ${
           navbar
-            ? "bg-gradient-to-r to-purple-900 from-blue-700 top-0 z-50 fixed inset-x-0"
+            ? "bg-gradient-to-r from-purple-900 to-purple-700 top-0 z-50 fixed inset-x-0"
             : "bg-transparent"
         }`}
       >
-        <h1 className="text-white font-poppins font-semibold mr-5">LOGO</h1>
+        <h1 className="text-white font-poppins font-semibold mr-5">
+          BETTER<span className="text-yellow-500 font-semibold">HEALTH</span>
+        </h1>
 
         <ul className="list-none sm:flex hidden justify-center flex-1 whitespace-nowrap">
           {navLinks.map((nav, index) => (
