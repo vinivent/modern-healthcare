@@ -28,10 +28,10 @@ const Hero = () => (
           </span>
         </p>
         <div className="flex flex-row">
-          <Button styles="bg-white flex text-center items-center justify-center h-9 h-10 mr-2">
+          <Button styles="bg-white flex text-center items-center justify-center h-9 h-10 mr-2 buttonanimation">
             Teste grátis
           </Button>
-          <Button styles="bg-white flex text-center items-center justify-center h-9 h-10">
+          <Button styles="bg-white flex text-center items-center justify-center h-9 h-10 buttonanimation">
             Fale com um consultor
           </Button>
         </div>
