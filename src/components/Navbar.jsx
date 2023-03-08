@@ -6,13 +6,19 @@ import Button from "./Button";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [navbar, setNavbar] = useState(false);
+  const [lastPosition, setLastPosition] = useState(0);
 
   const changeBackground = () => {
-    if (window.scrollY >= 50) {
+    const currentPosition = window.pageYOffset;
+    if (currentPosition < lastPosition) {
       setNavbar(true);
+      if (currentPosition === 0) {
+        setNavbar(false);
+      }
     } else {
       setNavbar(false);
     }
+    setLastPosition(currentPosition);
   };
 
   window.addEventListener("scroll", changeBackground);
@@ -20,10 +26,10 @@ const Navbar = () => {
   return (
     <header>
       <nav
-        className={`w-full flex p-4 justify-between items-center ${
+        className={`w-full flex p-4 justify-between navbar items-center ${
           navbar
             ? "bg-gradient-to-r from-purple-900 to-purple-700 top-0 z-50 fixed inset-x-0"
-            : "bg-transparent"
+            : "bg-transparent top-0 z-50 absolute inset-x-0"
         }`}
       >
         <h1 className="text-white font-poppins font-semibold mr-5">
@@ -43,8 +49,10 @@ const Navbar = () => {
           ))}
         </ul>
         <ul className="list-none sm:flex hidden justify-end">
-          <Button styles="ml-5 bg-white w-44"> Entrar </Button>
-          <Button styles="ml-3 bg-blue-500 text-white w-44">Cadastre-se</Button>
+          <Button styles="ml-5 bg-white w-44 buttonanimation">Entrar</Button>
+          <Button styles="ml-3 bg-blue-500 text-white w-44 buttonanimation">
+            Cadastre-se
+          </Button>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
