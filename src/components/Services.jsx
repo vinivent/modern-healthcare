@@ -27,7 +27,7 @@ const ServiceCard = ({ icon, title, content, index }) => (
 
 const Services = () => {
   return (
-    <section id="services" className="flex md:flex-row flex-col sm:py-16 p-44">
+    <section id="services" className="flex md:flex-row flex-col sm:py-16">
       <div className="flex-1 flex justify-center items-start flex-col">
         <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white w-full">
           Você se conecta conosco, <br className="sm:block hidden" />e nós
