@@ -9,6 +9,9 @@ import {
   instagram,
   linkedin,
   twitter,
+  Facebook2,
+  Google,
+  linkedin2
 } from "../assets";
 
 export const navLinks = [
@@ -169,3 +172,22 @@ export const socialMedia = [
     link: "https://www.linkedin.com/in/viniventura/",
   },
 ];
+
+export const socialMedias2 = [
+   {
+    id: "social-media-1",
+    icon: Facebook2,
+    link: "https://github.com/vinivent",
+  },
+  {
+    id: "social-media-2",
+    icon: Google,
+    link: "https://github.com/vinivent",
+  },
+  {
+    id: "social-media-3",
+    icon: linkedin2,
+    link: "https://www.linkedin.com/in/viniventura/",
+  },
+];
+

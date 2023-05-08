@@ -24,11 +24,11 @@ const Hero = () => {
             <h1 className="text-white mt-9 sm:text-3xl md:text-5xl lg:text-7xl font-bold uppercase mb-2">
               Better<span className="text-yellow-500">Health</span>
             </h1>
-            <p className="text-white text-xs md:text-lg lg:text-xl font-semibold mb-3 max-w-3xl">
+            <p className="text-white text-xs md:text-lg lg:text-xl font-medium mb-3 max-w-3xl ">
               Nossa empresa oferece uma plataforma de atendimento online para
               conectar pacientes e profissionais da saúde, proporcionando um
               atendimento personalizado e acessível.{" "}
-              <span className="font-bold text-yellow-500">
+              <span className="font-bold text-yellow-500 font-poppins">
                 Cuidar da sua saúde nunca foi tão fácil!
               </span>
             </p>

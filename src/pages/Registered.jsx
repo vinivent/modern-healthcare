@@ -1,9 +1,103 @@
-import React from 'react'
+import { socialMedias2 } from "../constants";
+import Button from "../components/Button";
+import { useState } from "react";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Registered = () => {
-  return (
-    <div>Registered</div>
-  )
-}
+  const [passwordVisible, setPasswordVisible] = useState(false);
 
-export default Registered
+  const togglePasswordVisibility = () => {
+    setPasswordVisible(!passwordVisible);
+  };
+
+  return (
+    <div className="flex justify-center items-center h-screen">
+      <div className="w-full sm:w-2/3 sm:p-8">
+        <h1 className="text-4xl sm:text-6xl font-bold font-poppins flex justify-center items-center">
+          Entre na sua conta
+        </h1>
+        <p
+          className="text-lg font-poppins flex justify-center items-center mb-2"
+          style={{ color: "#414141" }}
+        >
+          Entre com outras redes sociais
+        </p>
+        <div className="flex justify-center">
+          {socialMedias2.map((social, index) => (
+            <a href={social.link} target="_blank" rel="noopener noreferrer">
+              <img
+                src={social.icon}
+                alt={social.id}
+                className={`w-[35px] h-[35px] object-contain cursor-pointer mb-3 ${
+                  index !== socialMedias2.length - 1 ? "mr-4" : "mr-0"
+                }`}
+              />
+            </a>
+          ))}
+        </div>
+        <div className="ml-[35%]">
+          <p className="line w-1/2 text-sm font-poppins uppercase mb-3">ou</p>
+          <input
+            type="text"
+            placeholder="Email"
+            className="px-4 py-2 rounded-2xl w-1/2 mb-4 bg-[#edf5f3]"
+            style={{
+              fontFamily: "poppins, sans-serif",
+              fontWeight: "500",
+              fontSize: "15px",
+            }}
+          />
+          <div className="relative">
+            <input
+              type={passwordVisible ? "text" : "password"}
+              placeholder="Senha"
+              className="px-4 py-2 rounded-2xl w-1/2 bg-[#edf5f3]"
+              style={{
+                fontFamily: "poppins, sans-serif",
+                fontWeight: "500",
+                fontSize: "15px",
+              }}
+            />
+            <div
+              className="absolute right-4 top-1/2 transform w-1/2 mr-4 -translate-y-1/2 cursor-pointer text-[#9FA6B1]"
+              onClick={togglePasswordVisibility}
+            >
+              {passwordVisible ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
+            </div>
+          </div>
+        </div>
+        <div className="flex justify-center items-center mt-4">
+          <Button
+            styles="bg-blue-500 text-white w-44 h-12 mr-3 buttonanimation"
+            onClick={() => navigate("/signup")}
+          >
+            Entrar
+          </Button>
+        </div>
+        <div className=" sm:hidden flex flex-col justify-center items-center mt-4">
+          <p className="font-poppins">
+            Não possui uma conta? <Link className="font-poppins font-medium text-indigo-600" to="/signup">Cadastre-se</Link>
+          </p>
+        </div>
+      </div>
+      <div className="hidden w-1/3 bg-gradient-to-r from-violet-600 to-indigo-600 sm:flex flex-col justify-center items-center h-screen ">
+        <h1 className="text-5xl font-bold font-poppins text-white ml-14 mb-8">
+          Novo por aqui?
+        </h1>
+        <p className="text-lg font-poppins flex justify-center items-center mb-8 ml-14 text-white">
+          Não perca tempo e faça o cadastro na plataforma <br /> que mais
+          conecta as pessoas com a saúde!
+        </p>
+        <Button
+          styles="bg-blue-500 text-white w-44 h-12 mr-3 buttonanimation"
+          onClick={() => navigate("/signup")}
+        >
+          Cadastre-se
+        </Button>
+      </div>
+    </div>
+  );
+};
+
+export default Registered;

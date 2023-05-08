@@ -52,3 +52,18 @@
   transform: scale(1.05);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 }
+
+.line {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.line::before,
+.line::after {
+  content: "";
+  flex-grow: 1;
+  height: 1px;
+  background-color: #bfc7c6;
+  display: block;
+}
