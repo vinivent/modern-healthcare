@@ -1,6 +1,6 @@
 import { feedback } from "../constants";
 import FeedbackCard from "./FeedbackCard";
-import { robot } from "../assets";
+
 
 const Testimonials = () => (
   <section id="clients" className="flex items-center justify-center flex-col">
@@ -32,7 +32,3 @@ const Testimonials = () => (
 );
 
 export default Testimonials;
-
-// {/* <div className="flex-1 md:my-0 my-10 relative flex justify-center items-center">
-// <img src={robot} alt="teste" className="w-[20%] h-[20%] relative z-[5]" />
-// </div> */}
