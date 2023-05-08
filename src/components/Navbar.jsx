@@ -2,11 +2,14 @@ import { useState } from "react";
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import Button from "./Button";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const [lastPosition, setLastPosition] = useState(0);
+
+  const navigate = useNavigate();
 
   const changeBackground = () => {
     const currentPosition = window.pageYOffset;
@@ -49,8 +52,16 @@ const Navbar = () => {
           ))}
         </ul>
         <ul className="list-none sm:flex hidden justify-end">
-          <Button styles="ml-5 bg-white w-44 buttonanimation">Entrar</Button>
-          <Button styles="ml-3 bg-blue-500 text-white w-44 buttonanimation">
+          <Button
+            styles="ml-5 bg-white w-44 buttonanimation"
+            onClick={() => navigate("/login")}
+          >
+            Entrar
+          </Button>
+          <Button
+            styles="ml-3 bg-blue-500 text-white w-44 buttonanimation"
+            onClick={() => navigate("/signup")}
+          >
             Cadastre-se
           </Button>
         </ul>
@@ -78,10 +89,17 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <Button styles="mt-5 bg-white w-44 mb-2"> Entrar </Button>
-              <Button styles="bg-blue-500 text-white w-44">
-                {" "}
-                Cadastre-se{" "}
+              <Button
+                styles="mt-5 bg-white w-44 mb-2"
+                onClick={() => navigate("/login")}
+              >
+                  Entrar
+              </Button>
+              <Button
+                styles="bg-blue-500 text-white w-44"
+                onClick={() => navigate("/signup")}
+              >
+                Cadastre-se
               </Button>
               <ul className="list-none sm:flex hidden justify-end"></ul>
             </ul>
