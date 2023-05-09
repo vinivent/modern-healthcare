@@ -90,23 +90,23 @@ export const footerLinks = [
     links: [
       {
         name: "Quem Somos",
-        link: "https://www.betterhealth.com/content/",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Como Funciona",
-        link: "https://www.betterhealth.com/how-it-works/",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Termos e Serviços",
-        link: "https://www.betterhealth.com/terms-services/",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Trabalhe Conosco",
-        link: "https://www.betterhealth.com/works/",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Contato",
-        link: "https://www.betterhealth.com/contact/",
+        link: "http://localhost:5173/contact",
       },
     ],
   },
@@ -115,23 +115,23 @@ export const footerLinks = [
     links: [
       {
         name: "Central de Ajuda",
-        link: "https://www.betterhealth.com/help-center/",
+        link: "https://github.com/vinivent",
       },
       {
-        name: "Parceiros",
-        link: "https://www.betterhealth.com/partners/",
+        name: "Doações",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Sugestões",
-        link: "https://www.betterhealth.com/suggestions/",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Blog",
-        link: "https://www.betterhealth.com/blog/",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Novidades",
-        link: "https://www.betterhealth.com/newsletters/",
+        link: "https://github.com/vinivent",
       },
     ],
   },
@@ -140,11 +140,11 @@ export const footerLinks = [
     links: [
       {
         name: "Nossos parceiros",
-        link: "https://www.betterhealth.com/our-partner/",
+        link: "https://github.com/vinivent",
       },
       {
         name: "Seja um parceiro",
-        link: "https://www.betterhealth.com/become-a-partner/",
+        link: "https://github.com/vinivent",
       },
     ],
   },

@@ -35,9 +35,9 @@ const Hero = () => {
             <div className="flex flex-row">
               <Button
                 styles="bg-white flex text-center items-center justify-center h-9 h-10 mr-3 buttonanimation"
-                onClick={() => navigate("/signup")}
+                onClick={() => navigate("/treatment")}
               >
-                Teste grátis
+                Atendimento Gratuito
               </Button>
               <Button
                 styles="bg-white flex text-center items-center justify-center h-9 h-10 buttonanimation"
