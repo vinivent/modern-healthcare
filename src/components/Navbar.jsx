@@ -25,14 +25,14 @@ const Navbar = () => {
   };
 
   window.addEventListener("scroll", changeBackground);
-
+  const scrollY = window.pageYOffset;
   return (
     <header>
       <nav
         className={`w-full flex p-4 justify-between navbar items-center ${
           navbar
-            ? "bg-gradient-to-r from-purple-900 to-purple-700 top-0 z-50 fixed inset-x-0"
-            : "bg-transparent top-0 z-50 absolute inset-x-0"
+            ? "bg-gradient-to-r from-purple-900 to-purple-700 top-0 z-50 fixed inset-x-0 transition-opacity duration-500 ease-out opacity-100"
+            : `bg-transparent top-0 z-50 absolute inset-x-0 transition-opacity duration-500 ease-out ${scrollY === 0 ? "opacity-100" : "opacity-0" }`
         }`}
       >
         <h1 className="text-white font-poppins font-semibold mr-5">
@@ -93,7 +93,7 @@ const Navbar = () => {
                 styles="mt-5 bg-white w-44 mb-2"
                 onClick={() => navigate("/login")}
               >
-                  Entrar
+                Entrar
               </Button>
               <Button
                 styles="bg-blue-500 text-white w-44"
