@@ -22,7 +22,7 @@ const Testimonials = () => (
         </div>
       </div>
 
-      <div className="flex flex-wrap sm:justify-between justify-center w-full z-[1]">
+      <div className="flex flex-col sm:flex-row justify-between w-full">
         {feedback.map((card) => (
           <FeedbackCard key={card.id} {...card} />
         ))}
