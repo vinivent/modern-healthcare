@@ -69,7 +69,7 @@ const Registered = () => {
               }}
             />
             <div
-              className="absolute right-4 top-1/2 transform w-1/2 mr-4 -translate-y-1/2 cursor-pointer text-[#9FA6B1]"
+              className="absolute right-4 top-1/2 transform sm:w-1/2 sm:mr-4 -translate-y-1/2 cursor-pointer text-[#9FA6B1]"
               onClick={togglePasswordVisibility}
             >
               {passwordVisible ? <FaEyeSlash size={20} /> : <FaEye size={20} />}
