@@ -5,7 +5,7 @@ import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
 import { logo } from "../assets";
 
-const Registered = () => {
+const Register = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
   const navigate = useNavigate();
 
@@ -100,4 +100,4 @@ const Registered = () => {
   );
 };
 
-export default Registered;
+export default Register;
