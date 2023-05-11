@@ -32,11 +32,13 @@ const Navbar = () => {
         className={`w-full flex p-4 justify-between navbar items-center ${
           navbar
             ? "bg-gradient-to-r from-purple-900 to-purple-700 top-0 z-50 fixed inset-x-0 transition-opacity duration-500 ease-out opacity-100"
-            : `bg-transparent top-0 z-50 absolute inset-x-0 transition-opacity duration-500 ease-out ${scrollY === 0 ? "opacity-100" : "opacity-0" }`
+            : `bg-transparent top-0 z-50 absolute inset-x-0 transition-opacity duration-500 ease-out ${
+                scrollY === 0 ? "opacity-100" : "opacity-0"
+              }`
         }`}
       >
         <h1 className="text-white font-poppins font-semibold mr-5">
-          BETTER<span className="text-yellow-500 font-semibold">HEALTH</span>
+          BETTER<span className="text-[#6dcac2] font-semibold">HEALTH</span>
         </h1>
 
         <ul className="list-none sm:flex hidden justify-center flex-1 whitespace-nowrap">
@@ -59,7 +61,7 @@ const Navbar = () => {
             Entrar
           </Button>
           <Button
-            styles="ml-3 bg-blue-500 text-white w-44 buttonanimation"
+            styles="ml-3 bg-[#5eb6ae] text-white w-44 buttonanimation"
             onClick={() => navigate("/signup")}
           >
             Cadastre-se
@@ -96,7 +98,7 @@ const Navbar = () => {
                 Entrar
               </Button>
               <Button
-                styles="bg-blue-500 text-white w-44"
+                styles="bg-[blue-500] text-white w-44"
                 onClick={() => navigate("/signup")}
               >
                 Cadastre-se

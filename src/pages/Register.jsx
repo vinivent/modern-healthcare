@@ -78,7 +78,7 @@ const Register = () => {
         </div>
         <div className="flex justify-center items-center ml-14 mt-4">
           <Button
-            styles="bg-blue-500 text-white w-44 h-12 mr-3 buttonanimation"
+            styles="bg-[#5eb6ae] text-white w-44 h-12 mr-3 buttonanimation"
             onClick={() => navigate("/")}
           >
             Cadastrar
@@ -88,7 +88,7 @@ const Register = () => {
           <p className="font-poppins">
             Já possui uma conta?{" "}
             <Link
-              className="font-poppins font-medium text-indigo-600"
+              className="font-poppins font-medium text-[#5eb6ae]"
               to="/login"
             >
               Entrar

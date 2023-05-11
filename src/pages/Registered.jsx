@@ -78,7 +78,7 @@ const Registered = () => {
         </div>
         <div className="flex justify-center items-center mt-4 ml-14">
           <Button
-            styles="bg-blue-500 text-white w-44 h-12 mr-3 buttonanimation"
+            styles="bg-[#5eb6ae] text-white w-44 h-12 mr-3 buttonanimation"
             onClick={() => navigate("/signup")}
           >
             Entrar
@@ -96,7 +96,7 @@ const Registered = () => {
           </p>
         </div>
       </div>
-      <div className="hidden w-1/3 bg-gradient-to-r from-violet-600 to-indigo-600 sm:flex flex-col justify-center items-center h-screen">
+      <div className="hidden w-1/3 bg-gradient-to-b from-emerald-400 to-cyan-400 sm:flex flex-col justify-center items-center h-screen">
         <h1 className="text-5xl font-bold font-poppins text-white ml-14 mb-8">
           Novo por aqui?
         </h1>
@@ -106,7 +106,7 @@ const Registered = () => {
         </p>
 
         <Button
-          styles="bg-blue-500 text-white w-44 h-12 mr-3 ml-14 buttonanimation"
+          styles="bg-white text-black w-44 h-12 mr-3 ml-14 buttonanimation"
           onClick={() => navigate("/signup")}
         >
           Cadastre-se
