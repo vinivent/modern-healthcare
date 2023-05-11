@@ -13,7 +13,7 @@ const Footer = () => {
           </h1>
           <p
             className={
-              "font-poppins font-normal text-dimWhite text-[18px] leading-[30.8px] mt-4 max-w-[310px]"
+              "font-poppins font-normal text-white text-[18px] leading-[30.8px] mt-4 max-w-[310px]"
             }
           >
             Conectando você ao melhor da saúde, com segurança e confiabilidade.

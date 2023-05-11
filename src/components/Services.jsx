@@ -15,10 +15,10 @@ const ServiceCard = ({ icon, title, content, index }) => (
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23px] mb-1">
+      <h4 className="font-poppins font-semibold text-[18px] leading-[23px] mb-1">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1">
+      <p className="font-poppins font-normal text-[16px] leading-[24px] mb-1">
         {content}
       </p>
     </div>
@@ -29,13 +29,13 @@ const Services = () => {
   return (
     <section id="services" className="flex md:flex-row flex-col sm:py-16">
       <div className="flex-1 flex justify-center items-start flex-col">
-        <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white w-full">
+        <h2 className="font-poppins font-semibold xs:text-[48px] text-[40px] w-full">
           Você se conecta conosco, <br className="sm:block hidden" />e nós
           cuidamos de você.
         </h2>
         <p
           className={
-            "font-poppins font-normal text-dimWhite text-[18px] max-w-[470px] mt-5"
+            "font-poppins font-normal text-[18px] max-w-[470px] mt-5"
           }
         >
           Não importa se você precisa de cuidados de rotina ou tratamento

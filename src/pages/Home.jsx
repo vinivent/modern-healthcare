@@ -13,7 +13,7 @@ const Home = () => {
         <Hero />
       </div>
 
-      <div className="bg-primary sm:px-16 px-6 flex justify-center items-start">
+      <div className="bg-[#d7d7d7] sm:px-16 px-6 flex justify-center items-start">
         <div className="xl:max-w-[1440px] w-full">
           <Services />
           <Testimonials />
