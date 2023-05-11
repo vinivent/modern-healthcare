@@ -98,7 +98,7 @@ const Navbar = () => {
                 Entrar
               </Button>
               <Button
-                styles="bg-[blue-500] text-white w-44"
+                styles="bg-[#5eb6ae] text-white w-44"
                 onClick={() => navigate("/signup")}
               >
                 Cadastre-se

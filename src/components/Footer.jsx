@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
         <div className="flex-1 flex flex-col justify-start mr-10">
           <h1 className="text-white font-poppins font-semibold mr-5">
-            BETTER<span className="text-yellow-500 font-semibold">HEALTH</span>
+            BETTER<span className="text-[#6dcac2] font-semibold">HEALTH</span>
           </h1>
           <p
             className={
