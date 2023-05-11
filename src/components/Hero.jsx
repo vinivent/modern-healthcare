@@ -41,9 +41,9 @@ const Hero = () => {
               </Button>
               <Button
                 styles="bg-white flex text-center items-center justify-center h-9 h-10 buttonanimation"
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("/signup")}
               >
-                Fale com um consultor
+                Registre sua empresa
               </Button>
             </div>
           </div>
