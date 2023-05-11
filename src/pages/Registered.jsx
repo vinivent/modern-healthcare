@@ -44,7 +44,7 @@ const Registered = () => {
           ))}
         </div>
         <div className="sm:ml-[35%]">
-          <p className="line sm:w-1/2 text-sm font-poppins uppercase mb-3">
+          <p className="line sm:w-1/2 text-sm font-poppins uppercase mb-3 sm:p-0 p-3">
             ou
           </p>
           <input
@@ -88,7 +88,7 @@ const Registered = () => {
           <p className="font-poppins">
             Não possui uma conta?{" "}
             <Link
-              className="font-poppins font-medium text-indigo-600"
+              className="font-poppins font-medium text-[#5eb6ae]"
               to="/signup"
             >
               Cadastre-se

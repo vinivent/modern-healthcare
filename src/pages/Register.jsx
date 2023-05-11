@@ -44,7 +44,7 @@ const Register = () => {
           ))}
         </div>
         <div className="sm:ml-[35%]">
-          <p className="line sm:w-1/2 text-sm font-poppins uppercase mb-3">
+          <p className="line sm:w-1/2 text-sm font-poppins uppercase mb-3 sm:p-0 p-3">
             ou
           </p>
           <input
