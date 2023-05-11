@@ -37,7 +37,7 @@ const Hero = () => {
                 styles="bg-transparent border text-white flex text-center items-center justify-center h-9 h-10 mr-3 buttonanimation"
                 onClick={() => navigate("/treatment")}
               >
-                Atendimento Gratuito
+                Seja atendido
               </Button>
               <Button
                 styles="bg-white flex text-center items-center justify-center h-9 h-10 buttonanimation"
