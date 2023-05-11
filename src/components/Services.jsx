@@ -9,7 +9,7 @@ const ServiceCard = ({ icon, title, content, index }) => (
   >
     <div
       className={
-        "w-[64px] h-[64px] rounded-full flex justify-center items-center bg-dimBlue"
+        "w-[64px] h-[64px] rounded-full flex justify-center items-center bg-[#7b7e7e]"
       }
     >
       <img src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
