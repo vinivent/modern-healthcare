@@ -75,7 +75,7 @@ export const serviceLink = [
     id: "service-2",
     title: "Clínicas ao seu alcance",
     link: "/nearbycare",
-    icon: FaHandHoldingMedical,
+    icon: BiLocationPlus,
 
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
@@ -84,7 +84,7 @@ export const serviceLink = [
     id: "service-3",
     title: "Formas de atendimento",
     link: "/medicalcare",
-    icon: BiLocationPlus,
+    icon: FaHandHoldingMedical,
 
     content:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
