@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Navbar, Footer } from "../components";
 import { VscSearch } from "react-icons/vsc";
+import Map from "../components/GoogleMap";
 
 const Location = () => {
   const [text, setText] = useState("");
@@ -19,8 +20,8 @@ const Location = () => {
           <div className="flex flex-col items-center justify-start h-screen mt-10">
             <h1 className="font-poppins font-semibold sm:text-2xl text-[16px] mb-6 text-center">
               Atendimento médico de{" "}
-              <span className="text-[#5dada5] inline-block">qualidade</span>{" "}
-              com rapidez e facilidade.
+              <span className="text-[#5dada5] inline-block">qualidade</span> com
+              rapidez e facilidade.
             </h1>
             <div className="relative">
               <input
@@ -34,10 +35,7 @@ const Location = () => {
               </div>
             </div>
             {console.log(text)}
-            <img
-              className="mt-6 border border-[#5dada5] drop-shadow-lg rounded-2xl"
-              src="https://cdn.discordapp.com/attachments/866771595065557022/1107405342666670110/image.png"
-            />
+            <Map latitude="-8.036233211180548" longitude="-34.90027727198837" />
             <div className="bg-[#5dada5] w-screen h-screen -mt-[160px]">
               <h1 className="text-white drop-shadow-lg font-poppins sm:text-2xl text-[15px] font-medium text-center flex justify-center items-center mt-48 mb-64 ">
                 Não deixe sua saúde para depois. Encontre a clínica <br /> mais
