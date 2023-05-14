@@ -1,4 +1,5 @@
 import { Navbar, Hero, Footer, Services, Testimonials } from "../components";
+import ServicesLinks from "../components/ServicesLinks";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <div className="bg-[#d7d7d7] sm:px-16 px-6 flex justify-center items-start">
         <div className="xl:max-w-[1440px] w-full">
           <Services />
+          <ServicesLinks />
           <Testimonials />
         </div>
       </div>

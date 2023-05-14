@@ -11,8 +11,12 @@ import {
   twitter,
   Facebook2,
   Google,
-  linkedin2
+  linkedin2,
 } from "../assets";
+
+import { FaUserNurse,FaHandHoldingMedical  } from 'react-icons/fa';
+import { BiLocationPlus,  } from 'react-icons/bi';
+
 
 export const navLinks = [
   {
@@ -54,6 +58,36 @@ export const services = [
     title: "Contato Direto",
     content:
       "Tenha acesso todas as informações: acompanhamento de saúde, prescrições online entre outros.",
+  },
+];
+
+export const serviceLink = [
+  {
+    id: "service-1",
+    title: "Profissionais qualificados",
+    link: "/qualifiedcare",
+    icon: FaUserNurse,
+
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+  },
+  {
+    id: "service-2",
+    title: "Clínicas ao seu alcance",
+    link: "/nearbycare",
+    icon: FaHandHoldingMedical,
+
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+  },
+  {
+    id: "service-3",
+    title: "Formas de atendimento",
+    link: "/medicalcare",
+    icon: BiLocationPlus,
+
+    content:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
   },
 ];
 
@@ -174,7 +208,7 @@ export const socialMedia = [
 ];
 
 export const socialMedias2 = [
-   {
+  {
     id: "social-media-1",
     icon: Facebook2,
     link: "https://github.com/vinivent",
@@ -190,4 +224,3 @@ export const socialMedias2 = [
     link: "https://www.linkedin.com/in/viniventura/",
   },
 ];
-
