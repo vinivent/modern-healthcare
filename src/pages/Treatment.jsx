@@ -6,6 +6,7 @@ import { TbHeartHandshake } from "react-icons/tb";
 import { RiHealthBookLine } from "react-icons/ri";
 
 const Treatment = () => {
+  {window.scrollTo(0, 0)}
   return (
     <div className="bg-gradient-to-r from-slate-900 to-slate-700 w-full">
       <div className="sm:px-16 px-6 flex justify-center items-center">

@@ -74,7 +74,7 @@ export const serviceLink = [
   {
     id: "service-2",
     title: "Clínicas ao seu alcance",
-    link: "/treatment",
+    link: "/nearbycare",
     icon: BiLocationPlus,
 
     content:
@@ -83,7 +83,7 @@ export const serviceLink = [
   {
     id: "service-3",
     title: "Formas de atendimento",
-    link: "/medicalcare",
+    link: "/treatment",
     icon: FaHandHoldingMedical,
 
     content:
