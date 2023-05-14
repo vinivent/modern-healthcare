@@ -17,7 +17,7 @@ const Treatment = () => {
       <div className="bg-[#d7d7d7] sm:px-16 px-6 flex justify-center items-start">
         <div className="w-full">
           <div className="flex flex-row justify-between items-center">
-            <h1 className="translate-x-[200px] font-medium text-5xl font-poppins leading-relaxed">
+            <h1 className="sm:translate-x-[200px] translate-x-[0px] font-medium text-5xl font-poppins leading-relaxed">
               Oferecemos diferentes <br />
               opções de atendimento para <br />
               que você possa escolher
@@ -47,7 +47,7 @@ const Treatment = () => {
             <img
               src={treatment}
               alt="treatment"
-              className="w-[550px] translate-x-[65px]"
+              className="w-[550px] translate-x-[65px] sm:flex hidden"
             />
           </div>
         </div>
