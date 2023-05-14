@@ -12,6 +12,7 @@ function RoutesApp() {
             <Route path="/" element={<Home />}/>
             <Route path="/login" element={<Registered/>}/>
             <Route path="/signup" element={<Register/>}/>
+            {/* <Route path={`/#${element}`} element={<Home/>}/> */}
             <Route path="/treatment" element={<Treatment/>}/>
             <Route/>
         </Routes>

@@ -74,7 +74,7 @@ export const serviceLink = [
   {
     id: "service-2",
     title: "Clínicas ao seu alcance",
-    link: "/nearbycare",
+    link: "/treatment",
     icon: BiLocationPlus,
 
     content:

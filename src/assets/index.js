@@ -13,7 +13,8 @@ import linkedin from "./linkedin.svg";
 import linkedin2 from "./linkedin2.svg";
 import Google from "./Google.svg";
 import Facebook2 from "./Facebook2.svg";
-import logo from "./logo.svg"
+import logo from "./logo.svg";
+import treatment from "./treatment.jpg";
 
 export {
   menu,
@@ -31,5 +32,6 @@ export {
   linkedin2,
   Google,
   Facebook2,
-  logo
+  logo,
+  treatment,
 };
