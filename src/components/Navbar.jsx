@@ -2,13 +2,15 @@ import { useState } from "react";
 import { close, menu } from "../assets";
 import { navLinks } from "../constants";
 import Button from "./Button";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [navbar, setNavbar] = useState(false);
   const [lastPosition, setLastPosition] = useState(0);
+  const location = useLocation();
 
+  const isCurrentPageHome = location.pathname === "/";
   const navigate = useNavigate();
 
   const changeBackground = () => {
@@ -24,6 +26,12 @@ const Navbar = () => {
     setLastPosition(currentPosition);
   };
 
+  const scrollToElement = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   window.addEventListener("scroll", changeBackground);
   const scrollY = window.pageYOffset;
   return (
@@ -49,7 +57,13 @@ const Navbar = () => {
                 index === navLinks.length - 1 ? "mr-0" : "mr-12"
               } text-white`}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              {isCurrentPageHome ? (
+                <Link to={`#${nav.id}`} onClick={() => scrollToElement(nav.id)}>{nav.title}</Link>
+              ) : (
+                <Link to={`/`} onClick={() => (window.location.hash = nav.id)}>
+                  {nav.title}
+                </Link>
+              )}
             </li>
           ))}
         </ul>
@@ -88,7 +102,16 @@ const Navbar = () => {
                     index === navLinks.length - 1 ? "mr-0" : "mb-4"
                   } text-white`}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  {isCurrentPageHome ? (
+                    <Link to={`/#${nav.id}`}>{nav.title}</Link>
+                  ) : (
+                    <Link
+                      to={`/`}
+                      onClick={() => (window.location.hash = nav.id)}
+                    >
+                      {nav.title}
+                    </Link>
+                  )}
                 </li>
               ))}
               <Button
