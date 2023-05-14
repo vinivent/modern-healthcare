@@ -5,7 +5,11 @@ import Map from "../components/GoogleMap";
 
 const Location = () => {
   const [text, setText] = useState("");
-
+  const markers = [
+    { lat: -8.05428, lng: -34.8813 },
+    { lat: -8.06567, lng: -34.8717 },
+    { lat: -8.03318, lng: -34.8712 },
+  ];
   return (
     <div className="bg-gradient-to-r from-slate-900 to-slate-700 w-full">
       {window.scrollTo(0, 0)}
@@ -35,7 +39,7 @@ const Location = () => {
               </div>
             </div>
             {console.log(text)}
-            <Map latitude="-8.036233211180548" longitude="-34.90027727198837" />
+            <Map markers={markers} />
             <div className="bg-[#5dada5] w-screen h-screen -mt-[160px]">
               <h1 className="text-white drop-shadow-lg font-poppins sm:text-2xl text-[15px] font-medium text-center flex justify-center items-center mt-48 mb-64 ">
                 Não deixe sua saúde para depois. Encontre a clínica <br /> mais
