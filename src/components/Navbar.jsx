@@ -45,9 +45,9 @@ const Navbar = () => {
               }`
         }`}
       >
-        <h1 className="text-white font-poppins font-semibold mr-5">
+        <a href="/" className="text-white font-poppins font-semibold mr-5">
           BETTER<span className="text-[#6dcac2] font-semibold">HEALTH</span>
-        </h1>
+        </a>
 
         <ul className="list-none sm:flex hidden justify-center flex-1 whitespace-nowrap">
           {navLinks.map((nav, index) => (
