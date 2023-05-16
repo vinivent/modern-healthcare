@@ -22,10 +22,10 @@ const Professionals = () => {
         <div className="w-full">
           <div className="flex sm:flex-row flex-col justify-between">
             <div className="flex flex-row justify-between items-start mt-7">
-              <h1 className="font-medium text-5xl font-poppins leading-relaxed">
+              <h1 className="font-medium text-4xl md:text-5xl xl:text-6xl font-poppins leading-custom xl:ml-36 md:ml-0 ml-0">
                 Descubra uma variedade de <br /> especialistas altamente <br />{" "}
-                <span className="text-[#5dada5]"> qualificados</span> às de
-                diversas <br /> áreas da saúde
+                <span className="text-[#5dada5]">qualificados</span> em diversas{" "}
+                <br /> áreas da saúde!
                 <img
                   src={professionals}
                   alt="treatment"
