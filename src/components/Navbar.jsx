@@ -7,6 +7,7 @@ import { useNavigate, Link, useLocation } from "react-router-dom";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [navbar, setNavbar] = useState(false);
+  const [activeElement, setActiveElement] = useState("");
   const [lastPosition, setLastPosition] = useState(0);
   const location = useLocation();
 
@@ -55,10 +56,12 @@ const Navbar = () => {
               key={nav.id}
               className={`font-poppins font-semibold cursor-pointer text-[14px] uppercase ${
                 index === navLinks.length - 1 ? "mr-0" : "mr-12"
-              } text-white`}
+              } ${nav.id === activeElement ? "text-[#6dcac2]" : "text-white"}`}
             >
               {isCurrentPageHome ? (
-                <Link to={`#${nav.id}`} onClick={() => scrollToElement(nav.id)}>{nav.title}</Link>
+               <Link to={`#${nav.id}`} onClick={() => {scrollToElement(nav.id); setActiveElement(nav.id)}}>
+               {nav.title}
+             </Link>
               ) : (
                 <Link to={`/`} onClick={() => (window.location.hash = nav.id)}>
                   {nav.title}
