@@ -17,38 +17,40 @@ const Treatment = () => {
 
       <div className="bg-[#d7d7d7] sm:px-16 px-6 flex justify-center items-start">
         <div className="w-full">
-          <div className="flex flex-row justify-between items-center">
-            <h1 className="sm:translate-x-[200px] translate-x-[0px] font-medium text-5xl font-poppins leading-relaxed">
-              Oferecemos diferentes <br />
-              opções de atendimento para <br />
-              que você possa escolher
-              <br /> a melhor que se
-              <span className="text-[#5dada5]"> adapta</span> às <br /> suas
-              necessidades:
-              <div className="flex flex-col justify-center mt-8">
-                <h2 className="flex flex-row items-center text-dimGrey text-xl mb-2 font-normal">
-                  <GiHealthNormal className="mr-2 text-[#53968f] text-[35px]" />{" "}
-                  Atendimento público de sáude (SUS)
-                </h2>
-                <h2 className="flex flex-row items-center text-dimGrey text-xl mb-2 font-normal">
-                  <BsCashStack className="mr-2 text-[#53968f] text-[35px]" />{" "}
-                  Particular
-                </h2>
-                <h2 className="flex flex-row items-center text-dimGrey text-xl mb-2 font-normal ">
-                  <TbHeartHandshake className="mr-2 text-[#53968f] text-[35px]" />{" "}
-                  Convênios
-                </h2>
-                <h2 className="flex flex-row items-center text-dimGrey text-xl font-normal">
-                  <RiHealthBookLine className="mr-2 text-[#53968f] text-[35px]" />{" "}
-                  Plano de saúde
-                </h2>
-              </div>
-            </h1>
+          <div className="flex flex-col sm:flex-row justify-between items-start mt-24">
+            <div className="flex flex-col sm:flex-row justify-between items-center">
+              <h1 className="font-medium xl:text-5xl text-3xl md:text-3xl font-poppins leading-relaxed xl:ml-36 md:ml-0 ml-0">
+                Oferecemos diferentes <br />
+                opções de atendimento para <br />
+                que você possa escolher
+                <br /> a melhor que se
+                <span className="text-[#5dada5]"> adapta</span> às <br /> suas
+                necessidades:
+                <div className="flex flex-col justify-center mt-8">
+                  <h2 className="flex flex-row items-center text-dimGrey text-xl mb-2 font-normal">
+                    <GiHealthNormal className="mr-2 text-[#53968f] text-[35px]" />{" "}
+                    Atendimento público de sáude (SUS)
+                  </h2>
+                  <h2 className="flex flex-row items-center text-dimGrey text-xl mb-2 font-normal">
+                    <BsCashStack className="mr-2 text-[#53968f] text-[35px]" />{" "}
+                    Particular
+                  </h2>
+                  <h2 className="flex flex-row items-center text-dimGrey text-xl mb-2 font-normal ">
+                    <TbHeartHandshake className="mr-2 text-[#53968f] text-[35px]" />{" "}
+                    Convênios
+                  </h2>
+                  <h2 className="flex flex-row items-center text-dimGrey text-xl font-normal sm:mb-0 mb-10">
+                    <RiHealthBookLine className="mr-2 text-[#53968f] text-[35px]" />{" "}
+                    Plano de saúde
+                  </h2>
+                </div>
+              </h1>
+            </div>
 
             <img
               src={treatment}
               alt="treatment"
-              className="w-[550px] translate-x-[65px] sm:flex hidden"
+              className="w-[550px] translate-x-[65px] sm:flex hidden -mt-24"
             />
           </div>
         </div>
