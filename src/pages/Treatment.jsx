@@ -19,7 +19,7 @@ const Treatment = () => {
         <div className="w-full">
           <div className="flex flex-col sm:flex-row justify-between items-start mt-24">
             <div className="flex flex-col sm:flex-row justify-between items-center">
-              <h1 className="font-medium xl:text-5xl text-3xl md:text-3xl font-poppins xl:ml-36 md:ml-0 ml-0">
+              <h1 className="font-medium text-4xl md:text-5xl xl:text-6xl font-poppins leading-custom xl:ml-36 md:ml-0 ml-0">
                 Oferecemos diferentes <br />
                 opções de atendimento para <br />
                 que você possa escolher
