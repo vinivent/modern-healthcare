@@ -14,9 +14,8 @@ import {
   linkedin2,
 } from "../assets";
 
-import { FaUserNurse,FaHandHoldingMedical  } from 'react-icons/fa';
-import { BiLocationPlus,  } from 'react-icons/bi';
-
+import { FaUserNurse, FaHandHoldingMedical } from "react-icons/fa";
+import { BiLocationPlus } from "react-icons/bi";
 
 export const navLinks = [
   {
@@ -222,5 +221,28 @@ export const socialMedias2 = [
     id: "social-media-3",
     icon: linkedin2,
     link: "https://www.linkedin.com/in/viniventura/",
+  },
+];
+
+export const professionalsList = [
+  {
+    id: "profession-1",
+    title: "Cardiologista",
+  },
+  {
+    id: "profession-2",
+    title: "Ortopedista",
+  },
+  {
+    id: "profession-3",
+    title: "Pediatra",
+  },
+  {
+    id: "profession-4",
+    title: "Oftalmologista",
+  },
+  {
+    id: "profession-5",
+    title: "Dermatologista",
   },
 ];
