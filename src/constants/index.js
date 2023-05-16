@@ -227,22 +227,22 @@ export const socialMedias2 = [
 export const professionalsList = [
   {
     id: "profession-1",
-    title: "Cardiologista",
+    title: "cardiologista",
   },
   {
     id: "profession-2",
-    title: "Ortopedista",
+    title: "ortopedista",
   },
   {
     id: "profession-3",
-    title: "Pediatra",
+    title: "pediatra",
   },
   {
     id: "profession-4",
-    title: "Oftalmologista",
+    title: "oftalmologista",
   },
   {
     id: "profession-5",
-    title: "Dermatologista",
+    title: "dermatologista",
   },
 ];
