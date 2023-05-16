@@ -58,3 +58,8 @@
   background-color: #bfc7c6;
   display: block;
 }
+
+.dropdown-items {
+  max-height: 200px; 
+  overflow-y: auto;
+}
