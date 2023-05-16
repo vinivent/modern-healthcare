@@ -14,7 +14,7 @@ import linkedin2 from "./linkedin2.svg";
 import Google from "./Google.svg";
 import Facebook2 from "./Facebook2.svg";
 import logo from "./logo.svg";
-import logo2 from "./logo.svg";
+import logo2 from "./logo2.svg";
 import treatment from "./treatment.jpg";
 import professionals from "./professionals.png";
 
