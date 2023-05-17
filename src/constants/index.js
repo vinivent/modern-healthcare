@@ -110,9 +110,9 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "O BetterHealth foi fundamental na busca pela clínica ideal para o meu tratamento. Com a ajuda desse excelente site, encontrei um profissional altamente confiável que atendeu plenamente às minhas necessidades específicas. Recomendo a todos que buscam cuidados de saúde de qualidade.",
+      "O BetterHealth foi fundamental na busca pela clínica ideal para o meu tratamento. Encontrei um profissional confiável que atendeu plenamente às minhas necessidades. Recomendo enfaticamente a todos que buscam cuidados de saúde de qualidade.",
     name: "Diego Pinheiro",
-    title: "Estudante - 19 anos",
+    title: "Estudante - 19 anos", 
     img: people03,
   },
 ];
