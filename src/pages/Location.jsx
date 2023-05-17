@@ -6,9 +6,19 @@ import Map from "../components/GoogleMap";
 const Location = () => {
   const [text, setText] = useState("");
   const markers = [
-    { lat: -8.05428, lng: -34.8813 },
-    { lat: -8.06567, lng: -34.8717 },
-    { lat: -8.03318, lng: -34.8712 },
+    { lat: -8.030348440588218, lng: -34.90713462650244 }, // Hospital Agamenon Magalhães
+    { lat: -8.038612169827044, lng: -34.93906773501825 }, // Hospital Barão de Lucena
+    { lat: -8.034021214028282, lng: -34.9047481263107 }, //  Hospital Correia Picanço
+    { lat: -8.053553302873599, lng: -34.897737574836746 }, //  Hospital da Restauração
+    { lat: -7.968487338022034, lng: -34.89335352280588 }, // Hospital Geral da Mirueira
+    { lat: -8.100205240014073, lng: -34.92638623221825 }, //  Hospital Geral de Areias
+    { lat: -8.051314541181151, lng: -34.92221537062988 }, //  Hospital Getúlio Vargas
+    { lat: -8.164702186238364, lng: -34.923620556668034 }, //  Hospital Jaboatão Prazeres
+    { lat: -7.917507085618311, lng: -34.89138038020655 }, //  Hospital Metropolitano Norte
+    { lat: -8.069757202460918, lng: -34.9502818183437 }, //  Hospital Metropolitano Oeste
+    { lat: -8.24798723138739, lng: -35.00945605639024 }, //  Hospital Metropolitano Sul
+    { lat: -8.082895538405635, lng: -34.96267684104185 }, //  Hospital Otávio de Freitas
+    { lat: -8.03132446770646, lng: -34.90301885709931 }, //  Hospital Psiquiátrico Ulysses
   ];
   return (
     <div className="bg-gradient-to-r from-slate-900 to-slate-700 w-full">
