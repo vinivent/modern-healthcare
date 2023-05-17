@@ -102,17 +102,17 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    name: "Nome Cliente",
-    title: "Ocupação",
+      "O site BetterHealth foi essencial para profissionais iniciantes no mercado. Minha experiência ao hospedar as informações da minha clínica de psicologia foi excelente. Agradeço ao BetterHealth pela confiança absoluta nessa nova etapa da minha vida.",
+    name: "Bianca Almeida",
+    title: "Psicóloga",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    name: "Nome Cliente",
-    title: "Ocupação",
+      "O site BetterHealth me ajudou a encontrar a clínica ideal para o meu tratamento e pude selecionar um profissional que me passasse confiança e que atendia às minhas necessidades. Recomendo a todos que precisam de cuidados de saúde.",
+    name: "Diego Pinheiro",
+    title: "Estudante",
     img: people03,
   },
 ];
