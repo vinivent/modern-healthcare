@@ -94,9 +94,9 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-    name: "Nome Cliente",
-    title: "Ocupação",
+      "O site é bem fácil de usar e pude encontrar profissionais de saúde super atenciosos que me ajudaram no tratamento da minha artrite que vem me impedindo de fazer o que gosto, que é tricotar. Recomendo a todos!",
+    name: "Luciele dos Santos",
+    title: "Aposentada",
     img: people01,
   },
   {

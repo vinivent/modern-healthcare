@@ -3,7 +3,7 @@ import close from "./close.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
-import people01 from "./people01.png";
+import people01 from "./people01.jpg";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
 import facebook from "./facebook.svg";
