@@ -96,23 +96,23 @@ export const feedback = [
     content:
       "O site é bem fácil de usar e pude encontrar profissionais de saúde super atenciosos que me ajudaram no tratamento da minha artrite que vem me impedindo de fazer o que gosto, que é tricotar. Recomendo a todos!",
     name: "Luciele dos Santos",
-    title: "Aposentada",
+    title: "Aposentada - 73 anos",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "O site BetterHealth foi essencial para profissionais iniciantes no mercado. Minha experiência ao hospedar as informações da minha clínica de psicologia foi excelente. Agradeço ao BetterHealth pela confiança absoluta nessa nova etapa da minha vida.",
+      "A plataforma do BetterHealth foi essencial para profissionais iniciantes no mercado. Minha experiência ao hospedar as informações da minha clínica de psicologia foi excelente. Agradeço ao BetterHealth pela confiança absoluta nessa nova etapa da minha vida.",
     name: "Bianca Almeida",
-    title: "Psicóloga",
+    title: "Psicóloga - 26 anos",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "O site BetterHealth me ajudou a encontrar a clínica ideal para o meu tratamento e pude selecionar um profissional que me passasse confiança e que atendia às minhas necessidades. Recomendo a todos que precisam de cuidados de saúde.",
+      "O BetterHealth foi fundamental na busca pela clínica ideal para o meu tratamento. Encontrei um profissional confiável que atendeu plenamente às minhas necessidades. Recomendo a todos que buscam cuidados de saúde.",
     name: "Diego Pinheiro",
-    title: "Estudante",
+    title: "Estudante - 19 anos",
     img: people03,
   },
 ];
