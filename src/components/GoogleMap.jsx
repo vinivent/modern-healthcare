@@ -53,7 +53,7 @@ const Map = ({ markers }) => {
   return (
     <div className="h-max w-full">
       <LoadScript googleMapsApiKey={config.googleMapsApiKey}>
-        <GoogleMap mapContainerStyle={mapContainerStyle} center={markers[0]} zoom={13}>
+        <GoogleMap mapContainerStyle={mapContainerStyle} center={markers[3]} zoom={13}>
           {markers.map((marker, index) => (
             <Marker
               key={index}
