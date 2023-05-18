@@ -19,7 +19,7 @@ const ServicesCard = ({ icon: Icon, content, title, index, onClick }) => (
     <h4 className="font-poppins font-semibold text-[18px] mt-2">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-[16px] leading-[24px] mt-4 mb-1">
+      <p className="font-poppins font-normal text-[16px] leading-[24px] mt-4 mb-1 text-center">
         {content}
       </p>
     </div>
