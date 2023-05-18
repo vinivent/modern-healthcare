@@ -68,7 +68,7 @@ export const serviceLink = [
     icon: FaUserNurse,
 
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Nossa equipe é formada por especialistas altamente capacitados e experientes.",
   },
   {
     id: "service-2",
@@ -77,7 +77,7 @@ export const serviceLink = [
     icon: BiLocationPlus,
 
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
+      "Encontre clínicas de saúde de qualidade, próximas a você!",
   },
   {
     id: "service-3",
@@ -86,7 +86,7 @@ export const serviceLink = [
     icon: FaHandHoldingMedical,
 
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "Encontre a forma de atendimento que mais lhe agrada.",
   },
 ];
 
@@ -231,18 +231,22 @@ export const professionalsList = [
   },
   {
     id: "profession-2",
-    title: "ortopedista",
+    title: "psicologia",
   },
   {
     id: "profession-3",
-    title: "pediatra",
+    title: "ortopedista",
   },
   {
     id: "profession-4",
-    title: "oftalmologista",
+    title: "pediatra",
   },
   {
     id: "profession-5",
+    title: "oftalmologista",
+  },
+  {
+    id: "profession-6",
     title: "dermatologista",
   },
 ];
